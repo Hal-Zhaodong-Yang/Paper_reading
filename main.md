@@ -10,6 +10,8 @@
 
 
 
+[biomechanics](./bimanual/biomechanics.md)
+
 ## Sim2real
 
 
