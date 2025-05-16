@@ -21,3 +21,9 @@
 [learn from human](./ImitationLearning/learn_from_human.md)
 
 [data generation](./ImitationLearning/data_generation.md)
+
+
+
+## Reinforcement Learning
+
+[IL_RL](./ReinforcementLearning/IL_RL.md)
