@@ -4,7 +4,7 @@
 
 [Dexterous Grasping](./grasp/dexterous_grasping.md)
 
-[Dexterous Grasping/RL](./grasp/dexterous_grasping.md#reinforcement-learning)
+- [Dexterous Grasping/RL](./grasp/dexterous_grasping.md#reinforcement-learning)
 
 ## Bimanual manipulation
 
@@ -19,6 +19,9 @@
 ## Imitation Learning
 
 [learn from human](./ImitationLearning/learn_from_human.md)
+
+- [Learn from human video](./ImitationLearning/learn_from_human.md#learn-from-human-video)
+- [Co-Training](./ImitationLearning/learn_from_human.md#co-training)
 
 [data generation](./ImitationLearning/data_generation.md)
 
