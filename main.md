@@ -14,7 +14,9 @@
 
 ## Sim2real
 
+[leveraging_real_data](./sim2real/leveraging_real_data.md)
 
+- [Small amount of real data](./sim2real/leveraging_real_data.md#small-amount-of-real-data)
 
 ## Imitation Learning
 
