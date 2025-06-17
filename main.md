@@ -21,7 +21,7 @@
 
 [Not rely on real data](./sim2real/not_rely_on_real_data.md)
 
-[Representation design](./sim2real/not_rely_on_real_data.md#representation-design)
+- [Representation design](./sim2real/not_rely_on_real_data.md#representation-design)
 
 ## Imitation Learning
 
