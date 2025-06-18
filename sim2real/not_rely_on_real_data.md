@@ -58,5 +58,5 @@
 
 The main focus of motor adaptation seems to enable legged robot to walk on different terrains, and adapt to tear-and-wear or other non-rigid physical dynamics.
 
-- First, the reward function is motivated from bioenergetic constraints of minimizing work and ground impact. They found these reward functions to be critical for learning realistic gaits in simulation. Second, they train our policies on uneven terrain as a substitute for additional rewards used by for foot clearance and robustness to external push. A walking policy trained under these natural constraints transfers to simple setups in the real world (like concrete or wooden floor) without any modifications.
+- First, the reward function is motivated from bioenergetic constraints of minimizing work and ground impact. They found these reward functions to be critical for learning realistic gaits in simulation. Second, they train their policies on uneven terrain as a substitute for additional rewards used by for foot clearance and robustness to external push. A walking policy trained under these natural constraints transfers to simple setups in the real world (like concrete or wooden floor) without any modifications.
 - The adaptation module then enables it to scale from simple setups to very challenging terrains.

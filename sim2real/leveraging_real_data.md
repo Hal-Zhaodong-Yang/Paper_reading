@@ -98,6 +98,14 @@ Pipeline:
 
 
 
+##### ASAP
+
+[link](https://arxiv.org/abs/2502.01143);
+
+- Delta action dynamics model performs better than directly estimate system parameters in agile locomotion
+
+
+
 ## Train mapping from domain to domain
 
 ##### AnyRotate
