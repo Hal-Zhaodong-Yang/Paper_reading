@@ -19,6 +19,16 @@
 - [Small amount of real data](./sim2real/leveraging_real_data.md#small-amount-of-real-data)
 - [Train mapping from domain to domain](./sim2real/leveraging_real_data.md#train-mapping-from-domain-to-domain)
 
+[not_rely_on_real_data](./sim2real/not_rely_on_real_data.md)
+
+- [Representation design](./sim2real/not_rely_on_real_data.md#representation-design)
+- [Domain randomization](./sim2real/not_rely_on_real_data.md#domain-randomization)
+- [Motor adaptation](./sim2real/not_rely_on_real_data.md#motor-adaptation)
+
+[sim2real_necessity](./sim2real/sim2real_necessity.md)
+
+- [Sim2real capability of simulator](./sim2real/sim2real_necessity.md#sim2real-capability-of-simulator)
+
 ## Imitation Learning
 
 [learn from human](./ImitationLearning/learn_from_human.md)
