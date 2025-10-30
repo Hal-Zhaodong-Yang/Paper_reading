@@ -29,6 +29,12 @@
 
 - [Sim2real capability of simulator](./sim2real/sim2real_necessity.md#sim2real-capability-of-simulator)
 
+## Force and Compliance
+
+[learn compliance](./Force_Compliance/learn_compliance.md)
+
+
+
 ## Imitation Learning
 
 [learn from human](./ImitationLearning/learn_from_human.md)
