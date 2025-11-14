@@ -35,6 +35,12 @@
 
 
 
+## Control
+
+[passive control](./Control/passive_control.md)
+
+
+
 ## Imitation Learning
 
 [learn from human](./ImitationLearning/learn_from_human.md)
@@ -49,3 +55,5 @@
 ## Reinforcement Learning
 
 [IL_RL](./ReinforcementLearning/IL_RL.md)
+
+[RL improvement](./ReinforcementLearning/RL_improvement.md)
