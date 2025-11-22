@@ -43,6 +43,12 @@
 
 
 
+## Data Generation
+
+[data generation](./DataGeneration/data_generation.md)
+
+
+
 ## Imitation Learning
 
 [learn from human](./ImitationLearning/learn_from_human.md)
