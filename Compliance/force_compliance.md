@@ -8,3 +8,9 @@
 
 - Compliant motion tracking: minimize the difference between current posture and desired posture, as well as the desired compliant target pose (computed using a stiffness) 
 - IK solver: An non-linear optimization solver that optimize several objectives
+
+
+
+##### Variable Impedance Control
+
+[link](https://www.roboticsproceedings.org/rss06/p20.pdf); 
