@@ -13,4 +13,7 @@
 
 ##### Variable Impedance Control
 
-[link](https://www.roboticsproceedings.org/rss06/p20.pdf); 
+[link](https://www.roboticsproceedings.org/rss06/p20.pdf); Path Integral is a concept in quantum physics, robotics use it to sample trajectories and choose the weighted average of all the sampled trajectories as the optimal solution; For their method, Policy Improvement with Path Integral, they use DMP to represents the policy and update DMP parameters by the cost of each trajectory produced by DMP. And they use basis function to represent the scheduling of PD gains in the PD controller, to generate different variable impedance.
+
+- Their impedance are just determined by the PD gains, not depending on external forces.
+
