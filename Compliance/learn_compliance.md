@@ -1,4 +1,4 @@
-# Force Compliance
+# Learn Impedance
 
 
 
@@ -17,3 +17,10 @@
 
 - Their impedance are just determined by the PD gains, not depending on external forces.
 
+ 
+
+##### CHIP
+
+[link](https://arxiv.org/abs/2512.14689); Locomotion, basically still learning a policy to track the demo motion, but add compliance; train a policy to train the humanoid robot's two hands and its head to track 3 goal points; while training, apply external forces to the three parts, and compute a "hindsight" goal which is on the **opposite** direction of the force, g_h = g_o - (1 / k) * f, k is the compliance coefficient, and f is the force, hence the "hindsight" goal is for fighting against the force, and the "hindsight" goal is inputed into the policy, therefore tracking the original goal is rewarded during training to let the policy learn to be compliant
+
+- No force observation (compliance might be inferred based on history robot states, which is part of the policy observation)

@@ -31,7 +31,7 @@
 
 ## Force and Compliance
 
-[learn compliance](./Compliance/force_compliance.md)
+[learn compliance](./Compliance/learn_compliance.md)
 
 [visual reactive](./Compliance/visual_reactive.md)
 
