@@ -35,6 +35,8 @@
 
 [visual reactive](./Compliance/visual_reactive.md)
 
+[learning with tactile](./Compliance/learning_with_tactile.md)
+
 
 
 ## Control

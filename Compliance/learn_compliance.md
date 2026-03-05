@@ -24,3 +24,23 @@
 [link](https://arxiv.org/abs/2512.14689); Locomotion, basically still learning a policy to track the demo motion, but add compliance; train a policy to train the humanoid robot's two hands and its head to track 3 goal points; while training, apply external forces to the three parts, and compute a "hindsight" goal which is on the **opposite** direction of the force, g_h = g_o - (1 / k) * f, k is the compliance coefficient, and f is the force, hence the "hindsight" goal is for fighting against the force, and the "hindsight" goal is inputed into the policy, therefore tracking the original goal is rewarded during training to let the policy learn to be compliant
 
 - No force observation (compliance might be inferred based on history robot states, which is part of the policy observation)
+
+
+
+##### Learning a Unified Policy for Position and Force Control in Legged Loco-Manipulation
+
+Last author: Siyuan Huang
+
+[link](https://arxiv.org/abs/2505.20829); Learn a low level locomotion policy in sim with RL, which utilizes an **encoder** and input: **Position cmd, force cmd**, and other proprioception and history proprioception data, and output: latent vector to use as input for the actor policy; meanwhile, they train a estimator through supervised learning, which takes in the latent vector and output estimated force (then computing MSE loss with actual external force); They also learn a **high level Imitation Learning diffusion policy** which takes in **estimated force from estimator**, proprioception data, and RGB data, outputting **position cmd and force cmd**; for the low-level locomotion policy, they track a modified target x_target = x_cmd + F / K as tracking reward, to train the policy to mimic a spring model.
+
+- Without force observation
+
+
+
+##### FACET
+
+Last author: Huazhe Xue
+
+[link](https://arxiv.org/abs/2505.06883); Locomotion, imitate a mass-spring-damper system; train a locomotion policy which takes in **desired position, K_p, and K_d**; they utilize a reference model, which can compute the x_ref and \dot{x_ref} using a mass-spring-damper system by semi-explicit Euler integration; the policy will be trained to track the x_ref and \dot{x_ref};
+
+- to avoid open-loop tracking target (reference trajectory integrated from the initial state) and close-loop tracking target (integrate from the last robot state), they use a smoothed tracking targets by integrating from different time steps (they use average of three targets from 8 timestep, 16 timestep, 32 timestep before)
