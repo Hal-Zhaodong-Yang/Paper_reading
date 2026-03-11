@@ -39,8 +39,16 @@ Last author: Siyuan Huang
 
 ##### FACET
 
-Last author: Huazhe Xue
+Last author: Huazhe Xu
 
 [link](https://arxiv.org/abs/2505.06883); Locomotion, imitate a mass-spring-damper system; train a locomotion policy which takes in **desired position, K_p, and K_d**; they utilize a reference model, which can compute the x_ref and \dot{x_ref} using a mass-spring-damper system by semi-explicit Euler integration; the policy will be trained to track the x_ref and \dot{x_ref};
 
 - to avoid open-loop tracking target (reference trajectory integrated from the initial state) and close-loop tracking target (integrate from the last robot state), they use a smoothed tracking targets by integrating from different time steps (they use average of three targets from 8 timestep, 16 timestep, 32 timestep before)
+
+
+
+##### Adaptive Compliance Policy
+
+Last Author: Shuran Song
+
+[link](https://arxiv.org/abs/2410.09309); 
