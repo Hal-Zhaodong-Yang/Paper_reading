@@ -51,4 +51,6 @@ Last author: Huazhe Xu
 
 Last Author: Shuran Song
 
-[link](https://arxiv.org/abs/2410.09309); 
+[link](https://arxiv.org/abs/2410.09309); policy outputs pose, stiffness, and virtual target, and these outputs will be feeding into a compliance controller; they use pre-selected values for damping and mass for the compliance controller; they use IL and collect demonstration of human; for the compliance info, they use a simple strategy: **Use a low stiffness in the direction of the force feedback, and a high stiffness in all other directions.** And the high stiffness is preset, the low stiffness is computed from the magnitude of force (they hand-design a linear mapping from force magnitude to stiffness scale), and the direction of the low stiffness is identical to the force direction. The virtual target is computed from reference pose, stiffness, and force, to make sure robot exert desired forces when tracking the virtual target using the given stiffness.
+
+- When inference, the outputed virtual target and reference pose will be used to compute the low stiffness direction, and with scalar stiffness, the stiffness matrix can be computed. Using the stiffness matrix and the virtual target, they use the compliance controller to control the robot
