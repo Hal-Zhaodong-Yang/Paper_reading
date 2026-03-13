@@ -33,6 +33,9 @@
 
 [learn compliance](./Compliance/learn_compliance.md)
 
+- [learn impedance](./Compliance/learn_compliance.md#learn-impedance)
+- [design compliance](./Compliance/learn_compliance.md#design-compliance)
+
 [visual reactive](./Compliance/visual_reactive.md)
 
 [learning with tactile](./Compliance/learning_with_tactile.md)
