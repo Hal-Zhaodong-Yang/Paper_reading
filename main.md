@@ -46,6 +46,10 @@
 
 [passive control](./Control/passive_control.md)
 
+[character_control](./Control/character_control.md)
+
+- [Control Policy Architecture Innovation](./Control/character_control.md#control-policy-architecture-innovation)
+
 
 
 ## Data Generation
