@@ -71,7 +71,11 @@
 
 ## Reinforcement Learning
 
+[Offline to Online](./ReinforcementLearning/Offline2Online.md)
+
 [IL_RL](./ReinforcementLearning/IL_RL.md)
+
+- [Residual Policy Learning](./ReinforcementLearning/IL_RL.md#residual-policy-learning)
 
 [RL improvement](./ReinforcementLearning/RL_improvement.md)
 
