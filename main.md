@@ -79,7 +79,9 @@
 
 [RL improvement](./ReinforcementLearning/RL_improvement.md)
 
+- [Modify Optimization Function](./ReinforcementLearning/RL_improvement.md#modify-optimization-function)
 
+[Real World RL](./ReinforcementLearning/Real_World_RL.md)
 
 ## Vision
 
