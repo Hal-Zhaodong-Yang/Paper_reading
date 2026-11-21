@@ -15,3 +15,9 @@
 ##### Conservative Q-learning for offline reinforcement learning
 
 [link](https://dl.acm.org/doi/abs/10.5555/3495724.3495824); CQL; besides ordinary bellman loss term, adding another conservative term, which penalizes the actions out-of-distribution of demo data, so that making the q function conservative
+
+
+
+##### Robo-ValueRL: Reliable Value Estimation for Offline-to-Online Reinforcement Learning
+
+[link](https://arxiv.org/abs/2607.09866); Offline2online learning, key designs are 1. value function takes in not only current image, but also history images; 2. to deal with suboptimal offline dataset, they uses quality-conditioned consistency policy training by using the value function to label the trajectories; 3. Online residual adaptation with gated residual correction (sometimes let residual+base control the robot but sometimes don't)
