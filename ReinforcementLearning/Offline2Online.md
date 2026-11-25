@@ -21,3 +21,11 @@
 ##### Robo-ValueRL: Reliable Value Estimation for Offline-to-Online Reinforcement Learning
 
 [link](https://arxiv.org/abs/2607.09866); Offline2online learning, key designs are 1. value function takes in not only current image, but also history images; 2. to deal with suboptimal offline dataset, they uses quality-conditioned consistency policy training by using the value function to label the trajectories; 3. Online residual adaptation with gated residual correction (sometimes let residual+base control the robot but sometimes don't)
+
+
+
+##### Offline Reinforcement Learning with Implicit Q-Learning
+
+Last author: Sergey Levine
+
+[link](https://arxiv.org/abs/2110.06169); the famous IQL. Unlike SAC which trains a q function and use the gradient of q to update the actor, IQL trains both a value function V and a state-action function Q, and first use the expertile regression to train V (by let V regress to the top 80% value of Q), then use V to replace the Qmax target in the bellman update loss; then with V and Q they can get advantage Q - V and use it as weight to do behavior cloning to do update actor.
